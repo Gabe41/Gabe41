@@ -3,11 +3,11 @@
 
 int main() {
 
-  Profile sam("Sam Drakkila", 30, "New York", "USA", "he/him");
-  sam.add_hobby("listening to audiobooks and podcasts");
-  sam.add_hobby("playing rec sports like bowling and kickball");
-  sam.add_hobby("writing a speculative fiction novel");
-  sam.add_hobby("reading advice columns");
-  std::cout << sam.view_profile();
+  Profile gabe("Gabe P", 32, "PA", "USA", "he/him");
+  gabe.add_hobby("learning how to code");
+  gabe.add_hobby("wood working");
+  gabe.add_hobby("riding my MTB");
+  gabe.add_hobby("experimenting with interior design");
+  std::cout << gabe.view_profile();
 
 }
